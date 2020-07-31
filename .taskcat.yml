@@ -20,7 +20,6 @@ tests:
   tableau-aws:
     parameters:
       AvailabilityZones: $[alfred_getaz_2]
-      BastionAMIOS: Amazon-Linux-HVM
       BastionBanner: https://aws-quickstart.s3.amazonaws.com/quickstart-tableau-awsdata/submodules/quickstart-linux-bastion/scripts/banner_message.txt
       BastionInboundCIDR: 10.0.0.0/16
       BastionInstanceType: t2.micro
